@@ -8524,7 +8524,7 @@
         'line-color': {
           'property': 'congestion',
           'type': 'categorical',
-          'default': '#4882c5',
+          'default': 'red',
           'stops': [['unknown', '#4882c5'], ['low', '#4882c5'], ['moderate', '#f09a46'], ['heavy', '#e34341'], ['severe', '#8b2342']]
         },
         'line-width': 7
@@ -8544,8 +8544,8 @@
       'type': 'circle',
       'source': 'directions',
       'paint': {
-        'circle-radius': 6,
-        'circle-color': '#3bb2d0'
+        'circle-radius': 10,
+        'circle-color': '#2B71DB'
       },
       'filter': ['all', ['in', '$type', 'Point'], ['in', 'id', 'hover']]
     }, {
@@ -8563,7 +8563,7 @@
       'source': 'directions',
       'paint': {
         'circle-radius': 6,
-        'circle-color': '#8a8bc9'
+        'circle-color': 'magenta'
       },
       'filter': ['all', ['in', '$type', 'Point'], ['in', 'id', 'waypoint']]
     }, {
@@ -8604,7 +8604,7 @@
       'layout': {
         'text-field': 'B',
         'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-        'text-size': 12
+        'text-size': 20
       },
       'paint': {
         'text-color': '#fff'
