@@ -28,14 +28,14 @@ function setupMap(center)
                     coordinates: [-77.032, 38.913]
                 },
                 properties: {
-                    title: 'Mapbox',
+                    title: 'Capital',
                     description: 'Washington, D.C.'
                 }
             },
             {
                 type: 'Feature',
                 geometry: {
-                    type: 'Point',
+                    type: 'Fav Place1',
                     coordinates: [-122.414, 37.776]
                 },
                 properties: {
